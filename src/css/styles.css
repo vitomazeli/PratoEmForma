@@ -1,0 +1,51 @@
+body{
+    background-color: #DAC4BB;
+}
+
+title{
+    font-family: 'Porter Sans Block', sans-serif;
+}
+
+.input-icon{
+    position: absolute;
+width: 153px;
+height: 48px;
+left: 1090px;
+top: 78px;
+
+background: #924727;
+border: 1px solid #924727;
+border-radius: 8px;
+}
+
+#search-bar{
+    /* Rectangle 1 */
+
+position: absolute;
+width: 672px;
+height: 47px;
+left: 410px;
+top: 78px;
+
+background: linear-gradient(0deg, #F9EFE3, #F9EFE3), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #D9D9D9;
+border: 1px solid #924727;
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 8px;
+
+}
+
+#container-title{
+
+position: absolute;
+width: 371px;
+height: 134px;
+left: 25px;
+top: 34px;
+
+background-color: rgb(249, 249, 227);
+border: 1px solid #000000;
+border-radius: 23px;
+
+}
+
