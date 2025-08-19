@@ -1,51 +1,111 @@
-body{
-    background-color: #DAC4BB;
+body {
+  background-color: #DAC4BB;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-title{
-    font-family: 'Porter Sans Block', sans-serif;
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
 }
 
-.input-icon{
-    position: absolute;
-width: 153px;
-height: 48px;
-left: 1090px;
-top: 78px;
-
-background: #924727;
-border: 1px solid #924727;
-border-radius: 8px;
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #F9EFE3;
+  border: 1px solid #000;
+  border-radius: 23px;
+  padding: 10px 20px;
 }
 
-#search-bar{
-    /* Rectangle 1 */
-
-position: absolute;
-width: 672px;
-height: 47px;
-left: 410px;
-top: 78px;
-
-background: linear-gradient(0deg, #F9EFE3, #F9EFE3), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #D9D9D9;
-border: 1px solid #924727;
-backdrop-filter: blur(2px);
-/* Note: backdrop-filter has minimal browser support */
-border-radius: 8px;
-
+.title {
+  font-family: 'Porter Sans Block', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #6B2C1C;
 }
 
-#container-title{
+.logo {
+  width: 80px;
+  height: 80px;
+}
 
-position: absolute;
-width: 371px;
-height: 134px;
-left: 25px;
-top: 34px;
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #924727;
+  border-radius: 8px;
+  background-color: #F9EFE3;
+  overflow: hidden;
+}
 
-background-color: rgb(249, 249, 227);
-border: 1px solid #000000;
-border-radius: 23px;
+#search-bar {
+  width: 600px;
+  height: 60px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  font-size: 16px;
+  background-color: #F9EFE3;
+}
 
+.pesquisar {
+  background-color: #924727;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  width: 153px;
+height: 60px;
+}
+
+.input-icon:hover {
+  background-color: #6B2C1C;
+}
+
+#menu-container {
+    width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  padding: 10px 0;
+  border-top: 1px solid #924727;
+  border-bottom: 1px solid #924727;
+}
+
+.menu-btn {
+  background: none;
+  border: 10px solid transparent;
+  font-size: 20px;
+  font-weight: bold;
+  color: #924727;
+  cursor: pointer;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: all 0.2s ease;
+}
+
+.menu-btn:hover {
+  background-color: #924727;
+  color: white;
+}
+
+.menu-btn.active {
+  background-color: #924727;
+  color: white;
+  border: 1px solid #6B2C1C;
 }
 

@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/styles.css">
-    <link rel="icon" href="src/assets/icon.jpg">
-    <link href="https://fonts.cdnfonts.com/css/porter-sans-block" rel="stylesheet">
-    
-    <div id="container-title"> 
-         <title>Prato em Forma</title>
-    </div>
-   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/styles.css">
+  <link rel="icon" href="src/assets/icon.jpg">
+  <link href="https://fonts.cdnfonts.com/css/porter-sans-block" rel="stylesheet">
+  <title>Prato em Forma</title>
 </head>
 <body>
-   
-
-    <div id="container">
-        <h1 link rel="icon" href="src/assets/icon.jpg">Prato em Forma</h1>
-        <div class="input-gorup">
-            <button class="input-icon">
-                <div class="input-text">
-                    <h2>Pesquisar </h2>
-                </div>
-            </button>
-        <input id="search-bar" type="text">
-            
-        </div>    
+  <div id="header">
+    <div class="title-container">
+      <img src="src/assets/icon.jpg" alt="Logo" class="logo">
+      <h1 class="title">PRATO<br>EM<br>FORMA</h1>
     </div>
 
-    <script src ="src/javascript/script.js"></scriptsrc></script>
+    <div class="search-container">
+      <input id="search-bar" type="text" placeholder="Buscar...">
+      <button id="pesquisar"class="pesquisar">Pesquisar</button>
+    </div>
+  </div>  
+
+  <div id="menu-container">
+   <nav class="menu">
+        <button id="sobremesas" class="menu-btn">Sobremesas</button>
+        <button id="proteinas" class="menu-btn">Proteínas</button>
+        <button id="saladas" class="menu-btn">Saladas</button>
+        <button id="vegetariano" class="menu-btn">Vegetariano</button>
+        <button id="todos" class="menu-btn">Todos</button>
+    </nav>
+
+   </div>  
+
+
 </body>
 </html>
