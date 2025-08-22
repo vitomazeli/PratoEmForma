@@ -121,7 +121,7 @@ height: 60px;
   margin-bottom: 30px;
 }
 
-/* Cards lado a lado */
+
 .container-receitas {
   display: flex;
   justify-content: center;
@@ -129,7 +129,6 @@ height: 60px;
   flex-wrap: wrap;
 }
 
-/* Card de receita */
 .card {
   background: #f6e5de;
   border-radius: 12px;
@@ -138,13 +137,14 @@ height: 60px;
   width: 250px;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
   transition: transform 0.2s ease;
+  cursor: pointer;
 }
 
 .card:hover {
   transform: scale(1.05);
 }
 
-/* Imagens do card */
+
 .card img {
   width: 100%;
   height: 160px;
@@ -160,3 +160,17 @@ height: 60px;
 }
 
 
+.user-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.user-icon img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* deixa redondo */
+  object-fit: cover;
+  border: 2px solid #5c4033; /* opcional, dá um contorno */
+}

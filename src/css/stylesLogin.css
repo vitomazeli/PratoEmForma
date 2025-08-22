@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #d9b8aa;
+}
+
+/* Centralizar o formulário */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+/* Card do formulário */
+.logincard {
+  background-color: #d9b8aa;
+  border: 1px solid #5c4033;
+  padding: 30px 40px;
+  border-radius: 6px;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Formulário */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #3d2c24;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  background-color: #e6e6e6;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: #9a3d21;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background-color: #7c2f19;
+}
