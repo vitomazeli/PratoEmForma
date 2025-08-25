@@ -1,10 +1,5 @@
 const searchInput  = document.getElementById ('search-bar');
 
-document.getElementById("btnLogin").addEventListener("click", () => {
-  window.location.href = "Login.html";
-});
-
-
 searchInput.addEventListener('input',(event)=>{
     const value = formatString (event.target.value);
 

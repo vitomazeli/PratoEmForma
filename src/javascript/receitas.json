@@ -1,0 +1,35 @@
+[
+  {
+    "id": "omelete",
+    "titulo": "Omelete Rápido",
+    "imagem": "src/assets/omelete fit.png",
+    "ingredientes": [
+      "2 ovos",
+      "1 colher de sopa de leite (opcional, deixa mais fofinho)",
+      "Sal e pimenta a gosto",
+      "1 colher de chá de manteiga ou óleo",
+      "Recheio a gosto (queijo, presunto, tomate, cebola, ervas, etc.)"
+    ],
+    "modoPreparo": [
+      "Quebre os ovos em uma tigela e bata com um garfo ou fouet.",
+      "Acrescente o leite, sal e pimenta e misture bem.",
+      "Aqueça uma frigideira antiaderente em fogo médio e adicione a manteiga ou óleo.",
+      "Despeje a mistura dos ovos.",
+      "Cozinhe por alguns minutos, levantando levemente as bordas com uma espátula para o ovo cru escorrer para baixo.",
+      "Quando estiver quase firme, adicione o recheio escolhido.",
+      "Dobre ao meio e cozinhe por mais 1 minutinho."
+    ]
+  },
+  {
+    "id": "quinoa",
+    "titulo": "Salada de Quinoa",
+    "imagem": "src/assets/salada de quinoa fit.jpg",
+    "ingredientes": ["1 xícara de quinoa", "Tomates", "Pepino", "Cebola roxa", "Azeite", "Sal e limão"],
+    "modoPreparo": [
+      "Cozinhe a quinoa conforme instruções da embalagem.",
+      "Pique os legumes em cubinhos.",
+      "Misture tudo em uma tigela, tempere com azeite, sal e limão.",
+      "Sirva frio."
+    ]
+  }
+]

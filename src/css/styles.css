@@ -187,3 +187,13 @@ height: 60px;
   color: #4b2e2b;
   text-align: center;
 }
+
+.perfil-container{
+  display: flex;
+  align-items: center; /* alinha os itens verticalmente ao centro */
+  justify-content: center; /* alinha os itens horizontalmente ao centro */
+  height: 100px; 
+  color: #6B2C1C;
+ 
+}
+
