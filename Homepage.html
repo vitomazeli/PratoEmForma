@@ -20,10 +20,10 @@
       <button id="pesquisar" class="pesquisar">Pesquisar</button>
     </div>
 
-   
-    <div class="user-icon" >
-      <img src="src/assets/avatar.png" alt="Usuário">
-   </div>
+<a href="login.html" class="user-icon">
+  <img src="src/assets/Generic avatar.png" alt="Avatar">
+</a>
+
 
 
     </div>
@@ -40,27 +40,33 @@
     </nav>
   </div>
 
-  <!-- Receitas Populares -->
+ 
   <main class="conteudo">
     <h2 class="titulo-populares">Receitas Populares</h2>
     
     <div class="container-receitas">
-      <div class="card">
+      <div class="receita">
         <img src="src/assets/omelete fit.png" alt="Omelete Rápido">
         <p>Omelete Rápido</p>
       </div>
 
-      <div class="card">
+      <div class="receita">
         <img src="src/assets/salada de quinoa fit.jpg" alt="Salada de Quinoa">
         <p>Salada de Quinoa</p>
       </div>
 
-      <div class="card">
+      <div class="receita">
         <img src="src/assets/espaguete de abobrinha fit.jpg" alt="Espaguete de Abobrinha">
         <p>Espaguete de Abobrinha</p>
       </div>
+
+      <div id= "no_results"class="no_results">
+        <p>Nenhuma receita encontrada</p>
+      </div>
+
     </div>
   </main>
 </body>
+<script src="src/javascript/script.js"></script>
 
 </html>

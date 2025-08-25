@@ -129,7 +129,7 @@ height: 60px;
   flex-wrap: wrap;
 }
 
-.card {
+.receita {
   background: #f6e5de;
   border-radius: 12px;
   padding: 12px;
@@ -140,19 +140,19 @@ height: 60px;
   cursor: pointer;
 }
 
-.card:hover {
+.receita:hover {
   transform: scale(1.05);
 }
 
 
-.card img {
+.receita img {
   width: 100%;
   height: 160px;
   object-fit: cover;
   border-radius: 10px;
 }
 
-.card p {
+.receita p {
   margin-top: 10px;
   font-weight: bold;
   font-size: 18px;
@@ -170,7 +170,20 @@ height: 60px;
 .user-icon img {
   width: 60px;
   height: 60px;
-  border-radius: 50%; /* deixa redondo */
+  border-radius: 50%; 
   object-fit: cover;
-  border: 2px solid #5c4033; /* opcional, dá um contorno */
+  border: 2px solid #5c4033; 
+}
+
+.hidden {
+  display: none;
+}
+
+.no_results{
+  display: none;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #4b2e2b;
+  text-align: center;
 }

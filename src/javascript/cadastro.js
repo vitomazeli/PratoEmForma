@@ -5,6 +5,11 @@ document.getElementById("form-cadastro").addEventListener("submit", async functi
   const senha = document.getElementById("senha").value;
   const senha2 = document.getElementById("senha2").value;
 
+
+email.addEventListener('email',(event)=>{
+    console.log(event.target.value)
+});
+
   if (senha !== senha2) {
     alert("As senhas não coincidem!");
     return;
